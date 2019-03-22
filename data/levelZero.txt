@@ -1,0 +1,9 @@
+#nivel
+0
+#radio posX posY espera direccion rebotes estado
+50 800 60 100 LEFT 0 false
+70 300 500 120 RIGHT 0 false
+50 350 230 50 UP 0 false
+60 50 70 160 DOWN 0 false
+40 500 10 80 DOWN 0 false
+80 10 650 50 RIGHT 0 false

@@ -1,0 +1,14 @@
+#nivel
+2
+#radio posX posY espera direccion rebotes estado
+30 700 90 25 LEFT 0 false
+30 120 520 25 RIGHT 0 false
+30 350 230 70 UP 0 false
+30 900 100 50 DOWN 0 false
+30 500 300 15 LEFT 0 false
+30 162 200 25 LEFT 0 false
+30 200 50 25 RIGHT 0 false
+30 30 230 70 UP 0 false
+30 600 100 50 DOWN 0 false
+30 500 50 15 LEFT 0 false
+30 12 200 25 LEFT 0 false

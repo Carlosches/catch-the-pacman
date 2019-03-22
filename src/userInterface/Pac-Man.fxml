@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterface.PacManController">
+   <children>
+      <MenuBar fx:id="menuBar">
+        <menus>
+          <Menu fx:id="file" mnemonicParsing="false" text="File">
+            <items>
+                  <Menu mnemonicParsing="false" text="load game">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadSavedGame" text="Saved game" />
+                      <MenuItem mnemonicParsing="false" onAction="#level0" text="level 0" />
+                        <MenuItem mnemonicParsing="false" onAction="#level1" text="level 1" />
+                        <MenuItem mnemonicParsing="false" onAction="#level2" text="level 2" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" onAction="#saveGame" text="save game" />
+                  <MenuItem mnemonicParsing="false" text="exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="view">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#viewScores" text="high scores" />
+                  <MenuItem mnemonicParsing="false" text="about the game" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox prefHeight="26.0" prefWidth="667.0">
+         <children>
+            <Separator prefHeight="4.0" prefWidth="243.0" visible="false" />
+            <Label prefHeight="34.0" prefWidth="124.0" text="BOUNCES : ">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Separator prefHeight="26.0" prefWidth="21.0" />
+            <Label fx:id="bouncesNumber" alignment="CENTER" contentDisplay="CENTER" prefHeight="29.0" prefWidth="83.0" text="0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Pane fx:id="pane" prefHeight="460.0" prefWidth="667.0" />
+   </children>
+</VBox>

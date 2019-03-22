@@ -1,0 +1,12 @@
+#nivel
+0
+#radio posX posY espera direccion rebotes estado
+50 420 650 50 LEFT 0 false
+50 120 120 50 RIGHT 0 false
+40 350 230 50 UP 0 false
+50 280 100 50 DOWN 0 false
+35 485 650 50 DOWN 0 false
+65 562 102 50 RIGHT 0 false
+50 850 8 50 DOWN 0 false
+55 300 378 50 LEFT 0 false
+40 900 600 50 UP 0 false
